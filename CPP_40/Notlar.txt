@@ -1,0 +1,69 @@
+40.ders :çoklu kalýtým.
+
+iki tipi var 
+
+iki örnek çözülecektir.
+
+önceleri þöyle yapýyorduk::
+
+class a{
+
+// birinci temel sýnýf .
+
+};
+
+class b: public c > türetilmiþ temel sýnýf diyorduk .
+
+.......
+
+
+ama þimdi þöyle yapýlacak;
+
+
+
+class a{
+// birinci temel sýnýf .
+
+}
+class b{
+
+// ikinci temel sýnýf .
+}
+
+class c:  public a, public b{
+// türetilmiþ sýnýf.
+}                   
+-> b ve c den ayný anda türetildigini gösteriyoruz.
+
+
+bununla ilgili örnek:
+
+coklu_kalýtým:
+
+
+acýklama: adsýz point dökümanýndan ikinci þekli inceleyiniz.
+
+türetilimiþ sýnfýn yapýcý yýkýcý fonksiyonlarda nasýl oldugunu görecegiz...
+
+örnek2:
+
+coklu_kalýtým2:
+
+daha önceki yapýcýc yýkýcý fonksiyon örenklerinde yapmýþtýk onlardan yola cýkarak..
+
+
+akademisyen sýnýnýdan objeye ve idari sýnýftan objeye eriþirken nasýl eriþiyor.
+
+önce temel sýnýfa sonra kendi türetilmiþ sýnýfa gider.
+
+belediye baskanýndaki objeye nasýl eriþilir??
+
+örnege bakarsak;
+yapýcý fonk kuralý geregi temel sýnýfa gide öncelikler
+ sonra celiþkiye düþer akademisyen mi?
+idari personel mi?
+daha sonra ki kendine göre temel sýnýfa gider  buradada ilk yazdýgýmýza 
+gidiyor aslýnda.
+idariye  ve akademisyene eriþmesi için tekrar personle gider oradan akademisyen ve iadri þeklinde biter
+
+ders sonu:

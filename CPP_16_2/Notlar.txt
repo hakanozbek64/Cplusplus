@@ -1,0 +1,50 @@
+16_2.ders:
+
+
+katarlarýn birleþtirilmesi:
+
+
+örnek kodlarý yazýlýyoruz .
+
+örnege bakýnýz.
+katarlarýn birleþtirlmesi için 
+
+strcat fonksiyonu kullanýlýr.
+
+þöyle:
+
+strcat(katar1,katar2)
+katar 1 katar2 nini sonuna ekleniyor arkadaþlar.
+
+strcpy->karekterlerin kopyalanmasýydý.örnege bakýn.
+---------------
+katar_birleþtirme
+katar_birleþtirme örnegine bakarsak hoþgeldinve hakan ýbirleþtirdi.
+-----------------------------------------------
+
+katarlarýn karþýlaþtýrlmasý:
+
+
+iki katar karþýlaþtýrýlarak içerdigi karekterlerin ayný olup olmadýgý test ediliyor.
+
+strcmp fonksiyonu kullanýlýyor.
+
+
+kullanýmý::
+
+strcmp(katar1,katar2)
+
+puts nedir cout ile ayný iþlevi görüyor.
+
+break -> bitirme (ile bitirdik)
+
+
+
+-------------------------------------
+katarlarýn uzunlugunu bulmak
+
+katarlarýn uzunlugunu  bulmak için 
+strlen() kullanýlýr.
+
+
+

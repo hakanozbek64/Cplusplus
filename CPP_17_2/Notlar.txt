@@ -1,0 +1,11 @@
+17.2:
+
+örnek te point þeklini bakýnýz yardýmcý olamak için ayrýca 
+
+&referenas
+*dereferans
+oalayýný ögrendgimizde bu pointer olayýný kavtamýþ oluruz.
+
+örnegi ve calýþan degerleri inceleyiniz.
+
+

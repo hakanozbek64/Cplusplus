@@ -1,0 +1,37 @@
+33_2:
+
+operatörleri aþýrý yükleme (operatör):
+
+// +,-,= i  aþýrý yükleyelim.
+
+örnek_1:
+acýklama:
+
++ ve - de geçiçi birþey tanýmladýk ancak = de böyle birþey tanýmlamadýk.
+
+x ve y olay olay bununda üzerinde dönüyor.
+
+burada cýkan sonuclara bakarsak 
+a+b için x1 +x2 
+         y1,y2   degerini toplamýþ.
+
+a-b için x1-x2
+
+         y1-y2 degerini cýkarmýþ.
+
+digeri için 
+
+a  degeri yazdýrýlmýþ
+
+         x1,y1
+
+ve b degeri
+
+              x2,y2 degeri 
+bulumuþ
+
+a+10 degerinde 
+
+x1 ve y1 degerlerine 10 degeri eklenmiþtir..
+
+***ders sonu

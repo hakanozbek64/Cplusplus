@@ -1,0 +1,113 @@
+17.1.dersler:
+
+
+pointer yani işaretciler anlatılacaktır.
+
+
+.....
+
+main()
+int x:
+cout <<"x'in degeri:"<<x;
+
+getch()
+retun o;
+
+burada f9 yapıp çalıştırırsak
+
+x degerini 196...
+bir sayı yazar 
+yani kafasına göre deger atar.
+
+
+eger x=5 dersek ozaman saıy degerini 
+x'in degeri 5 yazar .
+
+işte pointer bu kafasına göre deger yazmayı engelliyor. yani
+
+peki bunu nasıl engeliyecegiz.
+şu şekilde;
+
+
+
+tür*isim;(göstericinin yazılması)
+örnek:
+
+
+int *a;
+int *ptr;
+
+
+gibi
+
+iki pointer:
+
+int*a,*b;
+yada
+int*a;
+int*b;
+olur.
+
+refernence
+dereference
+örnegin
+
+
+türev=integral
+
+2x  x^2
+
+bir adım sonrası ilk kendisi sonra yazılır.
+
+
+
+
+bir degişkenin bellek üzerindeki adresini ögrenmek istiyorsak
+
+& işaretini kullanırız.(reference)
+
+dereferans içinde
+
+* işaretini kullanırız.
+
+yani;
+
+
+a bir degişken ise &a , a degişkeninib adresini ifade eder.
+
+bununla ilgili bir örnek gösterildi.
+
+
+------------
+örnek_1
+
+çalıştırdıgımızda örnegi.
+
+burada x degeri kafasına göre atandı.
+ancak
+bellek adresi ise 2f... ile atandı.
+
+---------------
+örnek_2 ise deger atayalım.
+
+
+
+
+ozaman x degeri ve
+
+bellek adresi ise 2f... ile atandı.
+-----------------------
+
+örnek_3
+reference &
+dereference * 
+
+a'nın adresini b işaretcisine atadı.
+
+ardından bunu yazdırdı.
+-------------
+
+
+
+
+

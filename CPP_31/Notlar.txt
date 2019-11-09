@@ -1,0 +1,114 @@
+31. ders:
+
+fonksiyonlarýn aþýrý yüklenmesi:
+
+uzun oldugu için kýsým kýsým anlatýlacaktýr.fonksiyonlarýn aþýrý yüklenmesi 
+
+cok bicimlilik..
+
+örnegin bir fonksiyon adýnýn biribirleri ile iliþkili fakat teknik olarak farklý iki veya daha fazla amac için kullanýlabilmesidir.
+
+örnegin c dilinde bir sayýnýn mutlak degerini almak için bazý kitaplýk fonksionlarý vardý
+
+
+örnegin tam sayý için-> abs()
+
+uzun tamsayý için->labs()
+
+float tamsayýsý için ->fabs()
+
+
+c++ ta bu güzellik var  . bu fonksiyonlarý kullanmýyoruz...
+
+yukarýdaki bu 3 fonksiyonun yerine sadece 
+
+asd()  
+
+
+fonksiyonu kullanýyoruz.
+
+tek bir fonksiyonla tüm iþlemleri yapabiliyoruz...
+
+
+iþte bu mantýga aþýrý yükleme deniyor.
+
+
+fonksiyonu cagýrmak için kullanýlan veri tipi gercekte hangi fonksiyonun calýþacagýný belirliyor..
+
+
+
+fonksiyonlara aþýrý yükleme yapabilnek için
+
+
+3 adým atmak gerekiyor...
+
+
+1. adým:programýn baþýnda aþýrý yükleme yapýlacak fonksiyonlar için prototipler tanýmlanýyor.bu herzaman fonksiyonlarda yaptýgýmýz þey
+
+daha sonra her bir fonksiyon için protopipleri hazýrladýgýmýz fonksiyon tek tek hazýrlanýyor.
+
+ancak bu fonksiyonlarýn hepsi ayný isme sahip oluyor. örnegin az önce belirttigimiz asd fonksiyonlarý gibi..
+ ve son oalarak ta fonksiyon ismini farklý veri türleri  geçirilerek sonuclar ayrý ayrý hesplanýyor arkadaþlar....
+
+
+
+þimdi basit bir örnek:
+
+mutlak deger örnegi:
+
+
+fonk_asýrý_yuklenmesý_1:
+
+acýklama: burada fonksiyon isimlerinin ayný olduguna dikkat ediniz sadece türleri farklýdýr.
+
+
+-100 saysý 0 dan küçük oldugu için   x sayýsýný -1 ile carpttý.
+
+ayný þekilde -5.250 sayýsýda sýfýrdan küçük oldugu için  x sayýsýný -1 ile carpttý.
+
+
+önce program main kýsmýna gelir buradan ilgili fonksiyona gider....burada ayný fonksiyon isminden fakat türleri farklý olan fonksiyonlar var(fonksiyonlarýn aþýrý yüklenmesi diyoruz)
+
+program fonksiyona ayný ismi verdigimizde program kendisi int yada float oldugunu anlýyor.ve ona göre hangisini iþletecegini kendisi belirliyor.
+
+----------------------------------------
+
+örnek:2
+fonk_asýrý_yuklenmesý_2:
+
+tarih bilgisini veren program...
+
+
+
+acýklama: burada char ifadesini kullandýgýmýz için yýldýz kullandýk.
+
+
+tarih();
+
+tarih();
+
+ifadelerinden hangisi program için uygunsa program onu iþletiyor.
+
+ayný fonksiyonuda iþletebilir.main fonksiyonun üzerindeki.
+
+
+string için ise;
+
+void tarih(char *tarih){
+       
+       cout <<"tarih:"<<tarih<<endl;
+       }
+
+kullandýk(ayný isim olmamasý için özellikle * tarih demiþ olabilir.)
+burada fonksiyon zaten hangi tür uygunsa o fonksiyonu calýþtýrýyýr.
+
+ tarih("22/07/2012");ifadesi string seklinde yazýldý.
+
+
+ tarih(22,07,2012);ifadesi ise düz en yukardaki fonksiyona uygun yazýldý.
+
+
+sonuctada ayný þeyi yazdýrdý.
+-------------------
+
+***ders sonu

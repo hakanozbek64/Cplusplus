@@ -1,0 +1,80 @@
+29_1:
+nesnelere iþaretci kullanmak-dinamik bellek  yönetimi::
+
+iþaretci :bir degiþkenin bellekteki adresini tutan bir degiþkendir.
+
+tabi ki bir degiþken için degilde bir nesne için belirleyebilyoruz.
+bir nesneye iþaretci yardýmýylada eriþebilriz.
+
+öenmli olan nesnelerin üyelerine olan baþvurularýn -> iþleç ile yapýlmasýdýr.bu iþleci kullanmasakta programýmýz calýþacaktýr.
+ancak bu biz burada bu iþlecin mantýgýný oturtmaya calýþacagýz.(ögrenmeye calýþacagýz.)
+
+çünki opreatörlerin asýrý yüklenmesi gibi konularda bu cokca kullanacagýz.
+
+kullanýmý::
+
+sýnýfadi*göstergeadi;
+
+
+
+*(yýldýz) gösterge iþleci dir.
+
+---------------------
+
+nesnelerde_ýsaretcý_kull
+
+acýklama:
+soru söyle:
+
+
+5 tane sayýmýz olsun,
+bu sayýlarý bir nesne dizisi içine yerleþtirelim,
+bu nesne dizisine bir gösterge atayalým,
+gösterge yardýmýyla dzinin tüm elemnalarýný görüntüleyecegiz.
+
+
+.
+
+.
+.
+
+.
+
+--kilit cümle::
+atama yapabilmek için yapýcý fonksiyonu burda kullandýk.(void ile degil)
+main alýtýnda nesne dizisi belirttik.
+
+
+int i; tam sayý degiþkeni tanýmlýyoruz.
+
+bunun baþlangýc adresini almamýz gerekiyor nasýl yapýyorduk...
+
+nesne dizimizi bu p ye atýyoruz.
+
+p=a ile
+
+for döngüsüyle bu dizileri teker teker akrana getiriyoruz(yazdýrýyoruz.).
+ gösterici nasýl kullanýcaz?
+
+
+p++ yapýcaz.
+p++(artýr) ile bir sonraki diziye geciyoruz.
+
+p-> yerine ob.goster() de yazabiliriz.
+------------------------------------
+
+this iþaretcisi ile ilgili olarak;
+
+
+örnek:
+
+thýs_ýsaretcýsý:
+
+
+acýklama: üye fonksiyonumuz olsun.bu her cagrýldýgýnda kendisini iþaret eden bir göstergeye(iþaretciye ) otomatik olarak otamatik olarak aktarýlýyor.
+bu göstergeyede this ile ulaþýyoruz.
+
+
+// 100 ve 200 sayýsýný nesne degiþekenlerine atayalým.bunlarýn toplamaýnýda this i kullanarak gösterelim.
+
+***ders sonu.

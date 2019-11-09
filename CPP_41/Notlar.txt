@@ -1,0 +1,32 @@
+41. ders:
+
+sanal temel sýnýflar:
+point dosyasýný inceleyiniz.
+
+Eger A sýnýfýndaböyle bir kac tane sýnýf türetirsek .
+A sýnýfýna ait bir üyeye gönderme yaptýgýmýzda D üzerinden 
+
+bu veri B den mi?  C den mi gidecek?
+
+bunu bilemiyoruz.
+
+
+iþte vircual ile türetilmiþ sýnýflarýmýzý 
+temel sýnýftan sanal olarak oluþturabiliyoruz.
+
+
+kodlamaya gelirsek:
+örnek:
+
+sanal_temel_sýnýflar
+
+pointaaki hiyearþiyi kuruyoruz.
+
+yani program D den A ya eriþirken  B mi?yoksa C üzerinden mi gidecegini bilemez.
+dolayýsý ile;
+
+D nin  A  ya ulaþmasý için    B ve C ye vircual ekliyoruz.
+
+çünki carpýmlardan D üzrinden i*j*k daki i degerine ulaþýyoruz.
+
+*** ders sonu.

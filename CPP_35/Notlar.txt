@@ -1,0 +1,145 @@
+
+35.ders:
+
+operatorlerin aþýrý yüklenmesi ile ilgili 10 tane örnek çözecegiz...
+
+1. fonksiyonlara yeni görevler yükleme veya bir baþka deyiþle fonksiyonlarý aþýrý ükleme iþlemi ,nesneye yönelik programlama kavramlarýndan hangisi ile iliþkilidir.
+
+cevap:bir görev varken baþka görevler atýyorduk yani çok biçimli hale getiriyorduk.
+çok biçimlilik
+
+2.varsayýlan argumanlar hangi satýrda kullanýlýr. 
+degerlendirme sorularýna bak.
+cevap:
+ main fonksiyonunda bu argumaný kullanmýþ.
+
+önce baþlangýç degeri vermi fonksiyona
+
+sonra fonksiyonu tanýmlamýþ 
+en sonunda main içinde argumaný kullanmýþ.
+
+3.program çalýþtýrýldýgýnda hangi sonuç görüntülenir demektedir.
+
+
+cevap:degerlendirme sorularýna bak.
+
+ilk ifadelerde farklý degiþkenler ve deger atanmýþ.
+
+
+ardýndan void fonksiyon tanýmlamýþ
+
+cout ta göstermeyi saglýyordu...
+main kýsmýnda ise
+
+fonk(2,1925..) degeri var demekkki
+
+coutta 2 long c degerini alýr yani 2
+
+1925 gibi bir degerde float degerini alýr.
+
+sonra couttan diger char ve double degerlerini yazar sonucta:
+2,1925,10,34,Z,4.533 gibi bir deger alýcaktýr..
+
+
+4. soru:
+
+
+cevap:
+
+burada s1 ,s2,s3 adýnda kurucu fonksiyonlar tanýmlanýyor.
+coutta sý yazdýr deniyor oradaki paremetre 1(10) tane oldugu için 1 paremetre olan fonksiyon nerede var deger =n de var direkt 10 u yazýyor.
+sayý1=10
+
+sayi2 bakarsak s2.oku deger bir üstüne bakarsak arguman listesinde 10,20 var yani iki degiþkenli oldugu için ....(int n,float m) degerine geliyor ve
+sonuucta n+m toplamý veriyor demekki;
+10+20=30 
+
+sayý2=30 dur
+
+
+üçüncüsünde s3.okou deger 2,5,9 degerlerini alýyor.
+
+üç paremetreli olan üç paremetreli olana gelir
+
+orada ise üçünü topluyor .2+5+9=16 degerini vermesi gerekiyor. demekki
+
+syi3=16 dýr 
+
+d sýkký
+
+
+5. soru:iþleçlere  yeni görevler yükleme veya bir baþka deyiþle fonksiyonlarý aþýrý ükleme iþlemi ,nesneye yönelik programlama kavramlarýndan hangisi ile iliþkilidir.
+
+cevap:
+
+yukarýdaki sorunun benzeri ancak iþlecler deniyor.
+
+burada ama sonuc ayný 
+
+cok biçimlilik.
+
+
+6. soru:
+
+aþagýdaki iþleçelerden hangisine aþarý yükleme yapamayýz..
+
++,++,>>,::
+ 
+cevap::: . ve ? aþýrý yükleme yapýlamaz 
+
+cevap: iki tane iki nokta üst üste 
+
+7. soru:
+
+aþagýdaki c++ kodlarý ile ne yapýmak isteniyor.
+
+cevap:
+
+
+bir yapýcý fonksiyon oluþturulmuþ x=0,y=0 ile 
+
+sarý kýsmlarda operator + denmiþ + iþleci aþýrý yüklenmiþ 
+
+cevap:a
+
+
+8.soru :
+
+
+aþagýdaki fonksiyon calýþtýrýldýgýnda nasýl bir sonuc elde edilir.
+
+
+cevap:
+
+main kýsmýna gelirsek 
+
+test sýnýf... kýsmnýna bakarsak -> class kýsmýna bakýn
+int k1,k2 bilirtiliyor.
+++ts yapýyor demekki 1 artýrýyor.
+
+aþýrý yükleme nerde yapýlmýþ test sýnýf test..operator ++  ksýmýnda aþýrý yükleme yapýlmýþ  içerigi:
+x++ -> x i bir artýr
+y++
+  -> y yi bir artýr.
+ve döndür.
+
+ve k1 ve k2 demiþ ve yazdýr demiþ 
+
+
+54 bir artýrýldý,18 bir artýrýldý.
+
+sonucta:
+55,19 bulmuþ oluyoruz.
+
+
+9. soru:
+
+aþagýdaki c++ kodlarý ile ne yapýlmak isteniyor..
+
+
+cevap:
+
+operator< iþleci aþýrý yükleniyor.
+
+
+***ders sonu

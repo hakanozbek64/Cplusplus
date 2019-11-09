@@ -1,0 +1,101 @@
+39. ders:
+
+proteted ile kalýtým:
+
+protected eriþim türüdür(türetilmiþ fonk).ayný public ,private gibi...
+
+türetilmiþ sýnýf temel sýnýfýn private elemanýna eriþemiyordu..
+
+yanlýz öyle bir durum olur ki temel sýnýfda bir verinin private kalmasýný istersiniz..ama türetilmiþ sýnýftanda buna eriþmek istersiniz.(normalde yasak !)
+
+böyle yapýlar için c++ bize protected yapýsýný sunuyor......
+
+þöyle diyebiliriz...
+ temel sýnýfa ait protected üyeleri bu sýnýftan türetilmiþ sýnýflara ait üyeler eriþebiliyor..temel ve türetilmiþ sýnýf dýsýndan protected  üyelere eriþilemiyor.
+
+main içinden protectedlere eriþilemez!!
+
+yani 
+
+clas deneme{
+
+int x;
+public :
+
+protected 
+ int goster(){
+
+  asd asd
+};
+
+
+class deneme2 :public deneme{
+
+asd asd
+
+class deneme3: public deneme2{
+}
+
+main()
+              -> bu ksýmda protected                  üyelere eriþilemez..
+  getch();
+return0;
+}
+
+
+burada denemenin protectede deneme2 ninde protected i olur.
+
+deneme3 te public ile eriþtigi için deneme3 de deneme nini  protectedý olur.
+
+yani hepsi kulanýlýr duruma gelir...
+
+
+----------------------
+
+türetilmi sýnýf temel sýnýfa protected ile eriþiyorsa:aþagýdaki gibi
+
+...........
+denem2 :protected deneme {
+
+asd asd 
+}
+.....
+ozaman temel sýnýfýn publici protectedý oluyor.
+
+public kýsmý deneme2 için protected oluyor...
+
+private her türlü ayný kalacaktýr...
+----
+söyle  bir durum var 
+
+örnek 1:
+
+
+---
+
+class a1{
+protected :
+      int a,b;
+public :
+
+ void ata(){
+
+};
+
+class a2: protected a1{
+
+int c;
+public :
+  asd asd;
+
+}ob;
+
+main(){
+ob.ata(3); eriþilemez
+
+getch();
+
+};
+
+
+***ders sonu

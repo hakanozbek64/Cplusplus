@@ -1,0 +1,122 @@
+25.ders:
+
+nesne atamak-fonksiyonlara nesne aktarmak
+
+
+nesne atamak::
+
+objeler tanımlayıp bu objeleri biribirine atayabiliyoruz.fakat nesneler farklı sınıfta olduklarında atama yapamıyoruz.yani aynı tip olmaları gerekiyor.
+
+örnekte daha iyi anlaşılıyor.
+
+ a ve b tam sayı degişkenleri private tanımlandıgı için buna main kısmından erişemiyecektik bu yüzden sınıfın içinden bir fonksiyon yardımıyla erişebiliyoruz.x ve y ler yardımıyla a ve b ye eriştik.
+
+nesne_atama1:
+
+
+acılaması;
+örneginde ob1 obje(nesne)mize 30 ile 40 degerini koyduk
+
+ob1 in içindeki degerleri ob2 ye atama yapılıyor.
+ob2=ob1;
+
+atadıgı zaman ob1 nesnesinin içi silinmiyor.
+
+
+ob1 nesnesini göstermek için 
+ob1.goster denince void gostere gider   30 ile 40 degerini atamış oluyor.
+
+ob2 içinde benzer şekildedir.
+
+nesne atamak bu şekildedir.
+-------------------------------
+istisnai durum var
+-----------
+
+nesne atamak_2
+
+
+örnegi calışmıyacaktır.hata vericektir.
+
+ob1 ve ob2 nesneleri aybı sınıfa ait degiller.fizksel olarak aynı yerde bulunuyor olabilriler ama tipleri farklı 
+
+birisi deneme 2 sınıfının içinde biiriside deneme1 sınıfnın içinde  dogal olarak nesneler arasında atama yapmak için aynı sınıfta olmaları geriyor.
+
+nesne atama şimdilik bu kadar.
+----------------------------------------------
+
+fonksiyonlara nesne aktarmak::
+
+
+
+bizim obje ve nesnelerimiz var diger veri tiplerinin aktarılmasında oldugu gibi varsayılan olarak   fonksiyonları kullanıyor.?
+
+fonksiyonları varsayılan olarak veri tiplerine aktarıyor.?
+
+örnegimize bakıp acıklayalım:
+
+
+fonksiyonlara nesne aktarmak1:
+
+
+örnek acıklama:
+
+
+deneme isminde bir nesne tanımladık 
+
+ardından public içinde yapıcı fonksiyon belirttik.
+
+deneme(){ şeklinde
+
+
+deneme(int ){// n paremetresi aldı .
+
+int goster fonksiyonu yaptık i yi döndürmesini söyledik.
+
+ardından kare fonksiyonumuza geldik.
+
+sınıf adımızı yazdık ve a harfi girdik kendi oluşturdugumuz. retun dedik ve
+
+
+a ile göster()*a ile göster döndürdük.
+
+sonra,
+
+deneme de 5 degerini verdik.ozaman int n deki n imiz 5 oldu  kare fonksiyona geldi.deneme a ya
+
+burada a(nesne listesi oalabilir ) ikikere gster alarak 25 degerini belirtti.
+
+buradaki a degerine  5 atanmıyor!!!  a burada bir nesnne listesi olabilir.
+
+7 için de aynı şey gecerlidir.
+
+kare (x) ve kare(y) diyerek 5 ve 7 degerlerini aldırdık. 
+
+---------------------------
+fonksiyonlara nesne aktarmak2
+
+
+ise ilk örnegimize eklemeler yaparak oluşturuk.
+
+
+yani fonksiyonlara nesne aktarırken yapıcı fonksiyon cagırılmıyor .yıkıcı fınksiyon cagılıyor.
+
+x(5) ile deger ->
+
+
+int kare(deneme a){
+    
+a.ata(a.goster()*a.goster());
+    
+    
+    cout<<"x'in kopyasi su degerin i degerine sahiptir: "<<a.goster()<<endl;
+    }
+
+
+kare(x) ile degişiklige ugramıyor.
+
+
+
+sonuç olarak:fonksiyon içinde nesneye yapılan degişiklikler kopya alınan nesneyi etkilemez.
+
+***ders sonu.

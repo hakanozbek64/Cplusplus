@@ -1,0 +1,105 @@
+ders 33_2 :
+
+
+operatörü aþýrý yükleme(aritmetik):
+
+fonksiyonara aþýrý yüklemeye cok benziyor.operatörlere aþýrý yüklemek bir çeþit fonksiyonlara aþýrý yüklemedir diyebiliriz.
+
+
+bazý kurallarý vardýr.
+
+operatörler aþýrý yüklendiginde asla anlamlarýný kaybetmiyorlar.aksine tanýmlandýklarý sýnýfa göre ek anlamlar alabilyorlar.
+
+operörleri aþýrý yüklemek için önce opertör fonksiyon oluþturmamýz gerekiyor.
+
+operatör fonksiyonlar cogunlukla tanýmlandýklarý sýnýfa ya üyeler yada arkadaþlar
+
+üye operatör fonksiyon ve arkadaþ operatör fonksiyon arasýnda cok küçük bir fark var.ancak önemli;
+
+
+üye operatör fonksiyonun genel kullanýmý:
+
+
+***
+dönüþtipi sýnýfadý::operatör(+-*/gibi)#(argumanlistesi)
+
+den oluþur.
+
+bazý iþleclere aþýrý yükleme yapmýyoruz..bunlar:
+
+.,::,?
+
+
+bu üçüne aþýrý yükleme yapamýyoruz.
+
+genelde 2 tane aþýrý yükleme iþleci kullandýk bunlar hangleri
+
+1. cout ta kullandýgýmýz << ifadesi.
+
+2. digeri cin de kullandýgýmýz >> ifadesi.
+
+
+
+cout ta kullandýgýmýz << ifadenin asýl anlamý sola kaydýrma operatörü
+ ancak yüklenen anlamý(bizim yükledigimiz anlam) giriþ cýkýþ iþlemi yapmamýzdýr. 
+örnegin:
+
+
+cout<<"selam";
+
+<< ifadesi aþýrý yüklenmiþ oluyordu.
+aritmetik iþleclere aþýrý yükleme konumuza gelicek olursak:
+
+// aritmetik iþleçlere aþýrý yükleme.
+
+
+
+örnegin posizitif yani artý iþaretinide toplama iþaretinin yaný sýra baþka bir görevde yükleyebilyoruz..
+
+
+bunun için operatör+ iaþretinin tanýmlanmasý gerekiyor.
+karýþik gelen bir örnek verelim;
+
+// 2 nokta kordinatlarýnýn a(x1,y1) ve b(x2,y2) oldugunu varsayalým bu iki noktanýn kordinatlarýnýn toplamý karþýlýklý elemanlarýnýn toplamý olarak elde edilebilir.yani
+a(4,5 ) ve b(6,12) toplama sonucunda 10 ve 17 vermeli bize.
+
+2 noktanýn kordinatlarý verilsin.bunlarý karþýlýklý olarak toplayacak bir iþlec tanýmlamak istiyoruz.
+
+yani x1 ile x2 toplayacak ve y1 ve y2 toplayacak ve cevabý yazacak...
+
+
+örnek1:
+operatorlerý asýrý yukleme_1:
+
+
+acýklama:
+
+: noktayý operatörden önce kullanmalýyýz.
+
+
+  gecici.x=x+koord.x;// x imiz; a x1  y1  deki x .koor x diger kord x tir.
+  
+  gecici.y=y+koord.y;
+
+bunlarý topluyoruz ve geçiçi bir x e atýyoruz bunu.
+
+
+x in asýl degeri degiþmiyor ancak x in aþýrý yüklenmiþ degeri degiþiyor.
+
+ayný þey y içinde gecerlidir.
+
+main kýsmýnda arit a , arit b nesneleri toplandý.
+
+buradaki + iþleci operatör + yý cagýrdý.
+
+
+burada ne yaptý 1.sayý için;
+ a daki x1 ile b deki x2 topladý
+
+
+
+             ikinci ayý için a daki y1 ile b deki y2 yi topladý.
+
+burada + yý aþýrý yüklemiþ olduk.
+
+*** ders sonu:

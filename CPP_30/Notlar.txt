@@ -1,0 +1,73 @@
+30. ders:
+
+bu dersimiz de baþvurular yani referanslarý görücegiz..
+
+
+bütün amacý bir degiþkenin digerin ismi gibi davranmak olan bir iaþretcidir.
+
+
+yani bütün amaclarý elimizde bulanan bir degiþkenin diger isimi gbi davranmak olan  bir iaþretcidir.
+
+lakapta diyebilriz buna....
+
+baþvuru için  antandaj iþareti kullanýyor...&
+
+örnek:
+
+basvurular_1:
+
+
+acýklama:lakap þeklinde bir n tanýmladýk-> &n
+ void fonk(int &n)-> (int &n)baþvuru paremetreis bildirdik.
+
+n=100 dedik
+
+main içinde 
+
+int i=0
+dedik
+
+daha sonra
+
+fonk(i) dedik yani buda void fonk(int &n) kýsmýndaki kýsma gider ve eþleþir
+
+i=n olur. biz aþagýda i=100 vermemize ragmen 
+ yukarda i yeni 100 atadýgýmýz için yeni degerimiz 100 olmuþ oldu.
+
+
+------------------
+
+örnek:
+
+basvurular_2
+
+
+acýklama: burada i; n degerine eþit olur ve 
+
+en son: n+=100;//->i+=100->i=i+100; kýsmýndan 300 degeri bulunur.
+--------------
+
+
+örnek_3;
+
+basvurular_3
+
+
+
+acýklama:burada y degeri yok aslýnda y->&once olmus oldu. once=x-1 idi 
+x=10 ise once =9 olur.
+
+sonra ayný mantýkla sonra=x+1 den
+
+sonra=11 oldu.
+
+yani apmersans yani baþvuru paremetresi bildirme bu þekilde
+
+& yanýna degiþken adýný koyuyoruz.daha sonra program içinde bunu birþekilde göstermeye calýþýyoruz..
+
+
+iþaretcilerin lakabý þeklinde diyebilriz..
+
+örnege bakýnýz..
+
+ders sonu...

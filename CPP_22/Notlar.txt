@@ -1,0 +1,24 @@
+22. ders:
+
+inline fonksiyonlar::
+c++ programlarý yazarken bunlarý fonksiyonlara bölüp  kýsa kýsa fonksiyonlar yapýyorduk.programlarý böyle yazmak yararlý oldugu için tabiki;ancak
+
+cok fonksiyon oldugunda bir program kodunda
+fonksiyon char larý fazladan yük getirir.o yüzden inline fonksiyonlar yada fonksiyon gibi birþey tanýmlanmýþtýr.fonksiyon charlarýnýn getirecegi yükü azaltmayý saglýyor.
+
+*küçük programlarda kullanýlmalý tabi ki.
+
+
+*tek dezavantajý calýþma zamanýný kýsaltýyor.
+
+program boyutunu artýrýr.
+bir programý inline olarak tanýmlarsak bu illaki inline olacak diye bir durum yoktur.yani program bunu inline olarak algýlayabilir yada algýlamaya bilir.bu tamamen programa kalmýþtýr.
+
+inline programlar genelde küçük boyutlu programlarda kullanýlýr. büyük boyutlularda kullanýlmaz .genelde ok kullanýlan bir fonksiyon degildir.
+
+örnek:inline 
+
+
+
+
+örbegi inceleyiniz.

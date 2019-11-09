@@ -1,0 +1,130 @@
+19.ders:
+yapýlar(struct):
+
+birbirleri ile iliþkili veri gruplarýna denir.
+yani farklý veri türüne sahip degiþkenlerin bir grup olarak degerlendirilmesi  ve bu grubun bir biçimde kullanýlmasý amacýyla tercih ediliyor.
+
+ 
+
+
+stract main fonksiyonun içinde olmuyor 
+
+dýþýnda olacak.
+
+struct tanýmlamasý::
+
+.............
+using namespace std;
+
+struct yapiadi{
+
+alanlar ;
+
+
+}degiþkenlistesi;
+
+main(){
+
+
+(örnege bakýnýz)
+-------
+
+
+yapi adi,alanlara ve degiþkenlistesine 
+main fonksiyonunda tek tek ulaþmak mümkündür.
+
+(örnege bakýnýz)
+yani main 
+fonksiyonunda 
+
+int a=5
+char b vs tanýmlýyorduk ,   struct da ise 
+
+strcpy........
+strcpy
+deneme.
+vs gibi yapýcagýz .tannýmlayacagýz yani.
+
+struct(yapýlar) deþikeninin kullanýmý bu þekilde
+
+---------------------
+
+örnek:
+
+yapýlar_1
+
+
+bu örnekte degiþken listesini coglatýyoruz.
+ burada deneme,deneme 1,deneme2 vs gibi
+
+--------------------------------------------
+
+yeni konumuz birlikler yani(union)::
+
+yapýlara cok benzer 
+
+yapýlarda her degiþken için bellekte bir yer ayrýlýyordu örnegin 
+
+char ad[25]; gibi ad için 25 karekterlik yer ayrýlýyordu.
+gibi
+
+birliktede ayný mantýk gecerli ama 
+
+birliklerde;
+birligin tümü için bellekte tek bir yer ayrýlýr.
+
+
+yani yapýlarda;
+
+  
+       char ad[25]; ayrý
+       char soyad[20];ayrý
+       int yas;ayrý bir yer ayrýlýr.
+       
+
+
+birlikte ise birligin tümü için tek bir yer ayrýlýyor.(örnege bakýnýz.)
+
+bu yeri neye göre belirliyor?
+birligin en büyük alaný kadar dýr.
+
+tanýmlamasý::(structa benziyor.)
+
+
+union birlikadi{
+
+
+alanlar;
+
+
+}degiþkenler;
+------------
+örnegin:::
+
+union test {
+
+int yas;-> 4bytlýk yer ayýrýr.
+char ad[20];->20bayt lýk yer ayýrýr.
+
+}deneme;
+
+burada ortak hafýza kullanýmý vardýr.
+
+yas ve ad ýn burada ortak kullaným alaný vardýr.ayný  hafýzayýkullanýrlar.
+-----------
+yapýlar_2
+
+ örnegi(uniun)
+
+
+
+bu örnekte ad ve soyad cýkmadý niçin?
+
+
+çünki birlik içinde en son hangi degeri yazarsak bu digerlerinin yerini alýyor.
+
+yani en son yaþý girdigimiz için ad ve soyadýn yerini aldý.
+
+
+
+***ders sonu:::

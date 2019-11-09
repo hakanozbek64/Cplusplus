@@ -1,0 +1,132 @@
+32_1:
+
+yapýcý fonksiyonlarý aþýrý yükleme:
+
+sadece yapýcý fonksiyonlarý aþýrý yükleyebiliyoruz.yýkýcý fonksiyonlarý aþýrý yükleyemiyoruz.
+
+örnek_1:yapýcý_fonk_asýrý_yuklemesý_1
+
+acýklamasý:
+
+burada class deneme{ 
+
+nin altýnda float x belirttik çünki aþagýda bölme yaptýrdýgýmýz için ondalýklý olsun istedik..
+
+
+yapýcý fonksiyonlar belirtiyoruz.
+
+
+
+alt alta gelen deneme ,deneme ,deneme fonksiyonlarý aþýrý yüklenmiþ durumda su an ..
+
+
+program cýktýyý kendisi paremetrelere göre veriyor..
+
+->program deneme ob1(20)
+ ye gelir
+
+deneme ob1(20); de bir paremetre var  yukardaki ilk fonsiyona gelir sonuc 20 olur.
+
+
+->  deneme ob2(20,10.5);ise 
+
+yukarýya bakýyor iki paremetre olan hangisi var 
+
+
+deneme(int n,float m){
+                       
+                      x=n+m;
+kýsmýna gelip 30 degerini veriyor ve 
+
+son olarak;
+
+deneme ob3(25,425,50000); kýsmnýa gelir ve
+
+
+-> üc tane paremetre var sýnýf yapýsýna döner tekrar hangisinde  3 paremetre var.ve aþagýdaki iþlemi yaptýrýr...
+
+
+deneme(int n,float m,long c){
+               
+               x=(n+m)/c;
+               }
+        ve sonuc olarak x degerini 450/50000=0.0000 oldugu için direkt 0 yazdý.
+
+
+-------
+
+
+asýrý yýklenmiþ yapýcýlarýn en cok kullanýln alaný  bir nesneyi hazýrlamak veya hazýrlamamaktýr.
+bunu þöyle gösterebilriz ..
+
+
+örnek:
+
+yapýcý_fok_asýrý_yuk_2:
+
+
+acýkalama:
+
+
+
+
+            deneme(){
+                       
+                      x=0; // hazýrlayýcý yok
+                       }
+
+ o degerini x e atamýþ
+
+deneme();
+ paremtre almamýþ.haýzrlayýcý yok direk x i sýfýr olarak gösteriyor.birþey hazýrlamýyor yani program bu degeri direkt döndürüyor.
+
+
+
+
+deneme(int n){
+                       
+                      x=n;// hazýrlayýcý var.
+        
+                       }
+
+ise hazýrlayýcý var...paremtre var
+
+deneme ob1(20); de ***
+
+deneme(int n){
+                       
+                      x=n;// hazýrlayýcý var.
+        
+                       }
+
+kýsmýna gelir ve x=20 degerini atar.
+
+
+
+deneme ob2;
+
+direkt paremetresi olmayan aþagýdaki fonksiyona gider ve 0 degerini alýr.
+
+deneme(){
+                       
+                      x=0; // hazýrlayýcý yok
+                       }
+
+
+burada x=5 deseydik bu degeri döndürürdü.
+
+
+----------
+
+yapýcý fonksiyonlarýn asýrý yuklenmesinin gerekliliginin bir diger sebepte hem tek tek nesnelerin hemde nesne dizilerinin bir program içinde ortaya cýkmasýna olanak saglýyor.
+
+
+bu sefer biri hazýrlanmýs biri hazýrlanmamýs 2 tane diziyi belirtelim.  nasýl yapýyoruz...
+
+
+
+diger ders devam dediyoruz.
+
+
+
+***ders sonu.

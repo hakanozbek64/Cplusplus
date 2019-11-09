@@ -1,0 +1,135 @@
+36.ders:
+nesneye yönelik programlamanýn en önemli konularýndan kalýta giriþ yapýyoruz.
+kalýtým:
+bir nesnenin diger bir nesnenin özelliklerini kazanmasý iþlemine kalýtým diyoruz.
+
+yukarýdan aþagýya hiyeraþik bir sýnýflandýrma oluyor.
+
+en önemli katkýsý benzer özellikler taþýyan sýnýflarda ayný özelliklerin tekrar tekrar yazýlmasýný önler.
+
+ek 1 inceleyin:
+
+acýklama:
+
+otomobil nesnesi var bu genel özelliklerini nereden alýr?
+genel özelliklerini kara aracý sýnýfýndan alýr.
+
+ayný þey kamyon ,ucak ve helikopter içinde gecerli.
+
+kalýtým burada bir sýnýf içine baþka bir sýnýf dahil edilmesini saglar.
+örengin( en tepede) arac sýnýfý içine kara aracý ve hava aracý sýnýfýný dahil ettik.
+
+
+burada arac sýnýfýna (temel sýnýf)
+
+kara aracý ve hava aracý sýnýfýna ise türetilmiþ sýnýf denir.
+
+türetilmiþ sýnýf temel sýnýfýn tüm özelliklerini taþýyor.
+
+otomobil ile kara aracý iliþkisi nasýlsa 
+
+kara aracý ile araç arasýndaki iliþkide aynýdýr.
+-------------
+tanýmlama:
+
+//bir sýnýf , diger bir sýnýftan kalýtýmla oluþturulurken tek kural:
+
+class türetilmiþsýnýfadý: eriþimtürü temelsýnýfadi{
+
+iþlem 
+
+}
+
+main(){
+..
+
+......
+
+
+-----------------
+
+eriþim türü ne demek?
+
+eriþim türü : public(genel)-private(özel)-protected(koruma)
+
+
+
+eriþim türü,temel sýnýfýn elemanlarýnýn türetilmiþ sýnýf tarafýndan ne þekilde alýnabilecegini belirtiyor.
+
+
+önemli durumlar:
+
+eriþim türü private ise temel sýnýfýn tüm public üyeleri artýk türetilmiþ sýnýfýn private üyeleri oluyor.
+yani private ile temel sýnýftaki herþeyi türetilmiþ sýnýf için kilitledik.
+
+eriþim türü public ise temel sýnýfýn tüm üyeleri türetilmiþ sýnýfýn public üyeleri oluyor.
+
+ancak þöyle bir sorun var eriþim türü ne olursa olsun
+
+temel sýnýfa ait private üyelere türetilmiþ sýnýf hiç bir þekilde eriþemez.
+
+sadece türetilmiþ sýnýf içinden bir fonksiyon  yazýp onunla eriþilebilir.
+------------>
+class temelsýnýf{
+
+private:
+
+int x;
+
+public:
+int y;
+
+};
+
+class tretilmiþ sýnýf adý:private-public temelsýnýf{
+
+iþlemler
+
+
+};
+
+
+
+---------------------------------------------
+
+örnegin:
+
+
+.............
+
+
+class hayvan {
+
+asd 
+asd
+
+
+};
+
+class memeliler :public hayvan{
+
+asd 
+asd
+
+
+};
+
+class kopek:public memeliler{
+
+asd 
+asd
+
+
+};
+
+class kangal:private kopek{
+
+asd 
+asd
+
+
+};
+----------------------
+gibi
+
+***ders sonu:

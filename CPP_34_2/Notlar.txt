@@ -1,0 +1,26 @@
+ders:34_2:
+
+// == ve && iþleçlerini aþýrý yükleyelim.
+
+
+operatorlerýn_asýrý_yuklenmesý_5:
+
+
+acýklama:
+ if(a==b)
+if aile b eþitse ifadesine gelir 
+ve else ifadesini iþletir .çünki ayný degil.
+ if (a==c)
+
+ikiside eþit oldu için
+a ile c ayný yazdý.
+
+ if (a&&b)
+ a ve b
+burada sayý olarak degilde dogruluk olarak karþýlaþtýrýyor.
+-------------
+operatorlerýn_asýrý_yuk_6 
+dada ++ ve -- ile ilgili bir örnek var..
+
+
+***ders sonu.

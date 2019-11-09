@@ -1,0 +1,81 @@
+ders:34_2:
+
+oepratörleri aþýrý yükleme (karþýlaþtýrma -mantýksal):
+
+
+tekrar gösteriyoruz:
+
+
+&& -> ve
+
+|| -> veya   demektir.
+
+kullanýmý:
+
+tür sinifadi:: operator<sinifadi(arguman){
+iþlemler
+}
+
+main(){
+sinifadi a;
+sinifadi b;
+
+if(a<b){
+
+   }
+}
+
+gibi
+------
+yani iþecin yüklenen anlamý calýþtýrýlýr neresi?
+
+if(a<b) nin oldugu yer
+
+iþemler kýsmýnda bir anlam yüklemiþiz küçüktür iþaretine ve if kýsmýnda o calýþtýrýlacak...
+-------------------------------------------
+örnek:
+
+operatorlerýn_asýrý_yuklenmesý_1
+
+acýklama:
+
+a objesinde x1 1 x2 4 tür
+b objesinin x1 3 y2 6 dýr.
+cýkan ekranda a nýn 2 degeride b den büyük degildir.diyor dogru.
+
+a' nýn  2 degeride b den küçüktür dogru.
+
+
+yapýlan:
+
+asýl iþ yapan yer:
+
+ int test :: operator<(test ob){
+     
+     return x <ob.x&& y<ob.y;
+     
+     }
+     
+   int test ::operator>(test ob){
+       
+      return x>ob.x&&y>ob.y;  
+      
+       }  
+
+//a(x1,y1)  b(ob.x,ob.y)
+
+ob.x b nin x2si 
+ob.y ise b nin y2si.
+
+dolayýsý ile calýtýgý yere gider yani;
+
+if(a>b)
+veya
+if(a<b)
+
+oldugu yere..........
+
+
+ayný konu devam ediyor...
+
+***ders sonu 

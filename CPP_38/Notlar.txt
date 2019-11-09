@@ -1,0 +1,75 @@
+38.ders:
+yapýcý ve yýkýcý fonksiyonlarýn kalýtýmda kullanýlmasýný iþleyecegiz.
+
+// yapýcý ve yýkýcý fonksiyonlarýn kalýtmda kullanýmý.
+
+1. yapýcý fonksiyonlar çagrýldýgýnda öncelik temel sýnýflarda.
+
+2. yýkýcý fonksiyon cagrýldýgýnda öncelik öncelik türetilmiþ sýnýflarlarda.
+örnek:
+
+kalýtým_yapýcý_yýkýcý
+
+acýklama:
+temel sýnýf personel türetilmiþ sýnýf akademisyen ve idari 
+
+
+tabloya bakýnýz:
+
+yap.fonk -personel
+yap.fonk-akademisyem
+yap.fonk-ogrgorv
+merhaba
+(basýnca tuþa)
+bunu tersten ve hýzlý bir þekildede yazýcak
+
+
+1.yapýcý fonksiyonlarý vagýrdýgýmýzda öncelik temel sýnýflarda. 
+
+
+ulaþýlmak istenen :
+
+
+ogrgor hakanozbek;-> nesnesidir
+
+ogrgor e ulaþabilmek için önce
+personel->akademisyen->ogrgor sýnýfýna ulaþýlýr.
+
+program cýktýýsý da böyle bir sýradadýr dikkat.
+
+2. yýkýcý fonksiyonlar cagrýldýgýnda öncelik türet. sýnýflardadýr.
+  
+(butona basýldýgýnda )önce ogrgorv yýkýcak 
+sonra akademisyen sonra personeli yýkýcaktýr..
+
+
+bazý sorular:dogru/ yanlýþ cevap veriniz!!
+
+1. akademisyen sýnýfýndan personel sýnfýnýn private elemanýna eriþilemez.
+
+dogru(private elemanlarýna fonksiyon içinden tanýmlamdan eriþilemiyordu.
+2.akademisyen sýnýfýndan personel sýnýfýnýn public ve protected elemanlarýna eriþilemz.
+
+yanlýþ.personelin public ve privatesine eriþilemiyor(kilitli) ancak tanýmlama yapýlarak eriþilebilir.
+
+3.araþtýrma görevlisi sýnýfýndan akademisyen sýnýfýnýn private elemanýna eriþilemez.
+
+dogru.private oldugu için
+
+4.araþtýrma görevlisi sýnýfýndan akademisyen sýnýfýnýn public ve protected elemanýna eriþilemez.
+
+yanlýþ .eriþilebilir.
+
+5. araþtýrma görevlisi sýnýfýndan personel sýnýfýnýn private elemenlarýna eriþilebilir.
+
+yanlýþ.
+
+6.araþtýrma görevlisi sýnýfýndan personel sýnýfýnýn public ve protected elemenlarýna eriþilebilir.
+
+dogru.
+
+7. araþtýrma görevlisi tarafýndan türemiþ bir sýnýf olsaydý.akademisyen sýnýfýn public ve protected elemenýna eriþemeyecekti.
+
+yanlýþ (publicten dolayý.ancak private eriþemez )
+
+***ders sonu

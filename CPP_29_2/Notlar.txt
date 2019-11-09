@@ -1,0 +1,126 @@
+29_2 ders:
+
+dinamik bellek yönetimi:
+şimdiye kadar yaptıgımız örnekler genelde küçük boyutlu idi.bu yüzden bellekte hiç bir sorun olmadı.ancak bazen sorunlar olabilir.ve bellegi etkin  bir şekilde kullanmamız gerekebilir.
+
+c dilinde manlog ve fili ? fonksiyonları vardı..
+
+bunların yerine c++ da bellekte yer ayırabilmek için 
+new kullanılır 
+ayrılan yeri iptal etmek içinise
+delete kullanılır.
+
+mantıgı :
+
+gosterge=new tur;
+
+bu şekildedir...
+
+türe deger atamak içinse;
+
+int *g;
+g=new int;
+
+----
+
+dizi ise ;
+
+
+int*g;
+g=new int[5];
+
+
+new ile ayrılan yeri iptal etmek için delete kullanılır;
+
+kullanımı:
+
+
+delete gosterge;
+delete[] gosterge;
+------------------------------------
+örnek:
+
+
+dınamık_bellek_yonetımı_1
+
+acıklama:
+gosterıcı p
+
+tur ınt
+buna bir deger atarsak p=1000
+
+cout ile de yazdırıyoruz.
+
+p=1000 yaptı ve ardından burayı delete ile boşaltttı.
+
+
+--------------------------
+
+örnek_2:
+
+dınamık_bellek_yonetımı_2
+
+
+
+acıklama:nesneler için yer ayıran bir program  yapalım.
+yer ayırmaları işaretci konularından da biliyoruz...
+önemli olan sınıflarda kullanmak....
+
+
+burada türü deneme yani sınıf ismini de yazabiliyoruz.
+
+---------------------
+
+örnek3:
+dınamık_bellek_yonetımı_3
+
+acıklama:
+// i  float long char için yer ayır. bunlara sırasıyla deger ver . ve delete ile ekrandan gosterdıkten sonra alanı bosalt.
+
+
+
+float long char için yer ayır::
+
+f=new float;
+l=new long;
+c=new char;
+
+
+deger atanması::
+
+
+
+
+*f=10.2;
+*l=10000000000000;
+*c='h'
+
+
+delete ile ekranda gösterdikten sonra alanı boşalt.
+
+delete f;
+delete l;
+delete c;
+-----------------
+
+örnek:4
+
+dınamık_bellek_yonetımı_4
+
+acıklama:
+// kişi ismini ve tel numarasını .sınıfla yap.bellekten nesne için yer ayır.
+//sonra isim ve noyu kendin gir.
+
+
+char lara degeri strcpy ile atıyorduk...
+
+buraya kadar nesneler üzreninde işaretcileri kullanmayı gördük.dinamik bellek yönetimine geçtik.
+
+main kısmındaki ob.x ksımındaki ob yerine 
+
+p-> yazılabilir. 
+
+
+
+ders sonu...
+

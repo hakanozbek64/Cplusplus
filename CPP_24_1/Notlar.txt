@@ -1,0 +1,61 @@
+24.ders:
+
+class(sýnýf) örnekleri::
+
+1.class_ornek_1:
+
+acýklamasý::
+
+int a; burada  privete dir. adýný yazmasakta cünkü o bölgededir.
+
+yani a degiþkenine brada  dýþarýdan kimse eriþemez .bunu demek istiyor.
+
+yani burada sadece public oalarak tanýmlanan yer arasýna eriþim vardýr.bu degerler döndürülebilir.privete içindeki degerler kullanýcý tarafýndan göstertilemez
+vs örnegi inceleyiniz.
+
+----------------------
+2..class_ornek_2:
+
+
+örnegini inceleyiniz.
+bu örnekte fahraynet ile celculus hesaplanmýþtýr.
+
+acýklama:ceviri fonksiyonu yapýcý bir fonksiyondur.yani class ismi baþlamýþ zaten.
+
+
+--------------------------------
+
+3..class_ornek_3
+
+acýklama::
+
+bir önceki derse benzer bu sefer hacim hesaplýyoruz.
+
+
+hacimhesapla();
+kýsmý yapýcý fonksiyondur.
+
+
+burada görülmeyen test1,test2,test3 ise 
+
+
+clasýn nesnelisteleridir.bu örnekte yazýlmamýþ 
+
+yani tümü varmýþ gibi kullanýyor.
+
+hacimhesapla(){
+                 
+                 x=a;
+                 y=b;
+                 z=c;
+                 hacim=x*y*z;
+                 }
+                 void goster(){// gostermek için kulanýlýr olmasý gerekir .
+                      
+                      cout<<"hacim:"<<hacim<<endl;// hacmi gösteririr.
+                      }
+                 
+      };// burada test1,test2 yazýlmamýþ bilerek .yazmasakta main de belirttigimiz kýsým calýþýr.
+
+
+ders sonu.

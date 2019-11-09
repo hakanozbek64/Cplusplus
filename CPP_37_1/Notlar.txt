@@ -1,0 +1,46 @@
+37_1 ders:
+
+*bu dersimizde kalýtýmla ilgili örnekler cözülecektir..
+
+örnek_1
+kalýtým_1:
+
+acýklama:
+
+temel sýnýf adý deneme
+türetilmiþ sýnýf türet
+
+ bir temel sýnýf oluþturuldu.en üstte
+
+eriþim türü public ise demiþtik;
+temel sýnýfýn tüm üyeleri türretilmiþ sýnýfýnda public üyeleri olur demiþtik.
+yani temel sýnýftaki public üyeler(void ata ,void göster) türetilmiþ fonksiyonun genel fonksiyonlarý olmuþ gibi düþünün.
+
+türetilmiþ kýsým aslýnda ;
+
+class turet:public deneme{
+-> kýmýnýn altýnda kalan kýsmdýr.
+ob sýnýfýný türetilmiþ fonksiyonun sonuna ; den öncede yazabilirdik.(ob; gibi)
+
+türetilmiþ sýnýfýn objesini kullanarak temel sýnýfýn fonksiyonuna ulaþtýk ve deger atadýk ona.
+
+daha sonra kendi sýnýfýnda atatu ile bir deger atadý.
+
+yani public ile kalýtým yaptýgýmýz zaman temel sýnýftaki public kýsma sürekli eriþebiliyoruz.(1 olay)
+-----------------------------------------
+private ile kalýtým yaptýgýmýz düþünelim:
+
+burada aslýnda private dedigimizde temel sýnýfýmýzý türetilmiþ fonksiyon için kilitledik.artýk temel sýnýf özel oluyor.
+
+türetilmiþ sýnýfýn nesnesiyle temel sýnýftaki bir þeye ulaþmak istedik private yaptýgýmýz için hatalý gösterdi.
+gibi hata verebilir bunu þöyle aþabiliriz.
+
+main kýsýmýnýn altýnda ve üstünde düzenlemeler yaparýz 
+
+    cout<<"temel sýnýftan gelen:"<<ob.fonk()<<endl;
+    cout<<"türetilmiþ sýnýftan gelen:"<<ob.gostertu();
+
+ile bunu düzenleriz ve problem  aþýldý.
+
+
+***ders sonu:

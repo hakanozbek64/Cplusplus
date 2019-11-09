@@ -1,0 +1,87 @@
+26. ders:
+
+fonksiyonlardan nesne döndürmek.
+
+yapmamız gerekenker 2 tane::
+
+
+1.fonksiyonu sınıf tipi döndürür şekilde bildirmemiz gerekiyor
+
+
+2.return ile döndürme işlemi yapmamız gerekiyor.
+
+
+döndürme bildigimiz gibi return ile yapılıyordu.
+
+
+...                               //
+
+
+sınıf ismi fonksiyon ismi(){->  //test kitap
+
+
+(){                                               
+                               
+.......                     ->  //nesne1.ata(157)
+
+return  nesne1;     ->         //return nesne1;
+
+}                             //}
+
+
+
+acıklama:  class içinde atama yaptık ardından gösterme yaptık.
+
+class tan sonraki-main den önce ki kısımda ise
+
+kitap fonksiyonu actık.
+nesne1.ata yı main içinde de yapabilirdik ancak konumuz fonksiyonlardan nesne döndürmek oldugu için fonksiyon içinde yaptık.
+return ile de nesneyi döndürdük.
+
+
+main iiçinde ise;
+
+kitap fonksiyonunu nesne2 ye atadık.
+
+ve ekranda nesne2 gösterdik.
+
+----------------------
+2. örnek:
+fonksiyonlardan nesne döndürmek_2:
+
+2. örnekte ;
+
+
+
+önce fonksiyona gider oreda fonksiyon girilir 
+ve  deneme fonksiyonundada gösterilir.
+
+...............int degikeninde böyleydi ;
+i
+
+int n
+
+i=n 
+
+gibi 
+
+ancak char (karekter)kısmında ise;
+
+s degerini str degerini atar.
+
+ve gösterir.
+
+
+
+ders sonu..
+
+
+
+
+
+
+
+
+
+
+

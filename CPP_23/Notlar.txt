@@ -1,0 +1,138 @@
+23.ders:
+
+yapýcý-yýkýcý fonksiyonlar::
+
+*claslarla yakýndan ilgilidir.
+
+yapýcý fonksiyonlar ne iþ yarar.
+
+->bir sýnýf içinde yer alan bir degiþkeni
+örbegin a,b,c bunlara baþlangýc degeri atamamýzý saglýyor.
+bir nesneyi oluþturdugumuzda bu fonksiyonun yapýcý fonksiyonu otomatik olarak cagrýlýyor.
+
+yýkýcý fonksiyon ise cagýrdýgýmýz bu fonksiyon (nesene)yok edilirken yýkýcý fonksiyon kullanýlýyor.
+
+yapýcý ve yýkýcý bu fonksiyonda sýnýfýn ismini alýrlar .yapýcý ve yýkýcý fonksiyonlar geri dönüþ degeri oluþturmazlar yani return kullanamayýz.
+
+yapýcý fonksiyonlar parametre alabiliyorlar.
+birden fazla yapýcý olabilir hepsinin ismi ayný olacak.bunlarýn nasýl oluyorda karýþmadýgý anlatýlacaktýr.
+------------------------
+örnek:yapýcý_yýkýcý_fonk
+
+
+acýklamasý:
+
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+class deneme{// deneme siminde bir sýnýf oluþturduk.
+    public:
+           int a,b,c; //üç tane tamsayý                       degiþken yaptýk ve                         bunlarý public yaptýk
+           deneme();   //::sýnýf ismi() ;ile oluþur. yapýcý fonksiyon oluþturduk.
+       
+       }test;//sýnýf listesi belirttik.
+deneme::deneme(){//burada yapýcý fonksiyona baþlangýc degeri(leri) atýyoruz.bu baþlangýc degerini sýnýfýn içindede yapabilirdik.
+                 
+            a=1;
+            b=2;
+            c=3;    
+                 }
+
+
+
+
+
+
+int main(int argc, char *argv[])
+{
+    
+    cout<<test.a<<endl<<test.b<<endl<<test.c<<endl;//test.,testb,test.c þeklinde üçünüde yazdýrýyoruz.
+    
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
+---------------------------------------
+
+
+örnek::yapýcý_yýkýcý_fonk_2 
+
+
+acýklama: bu örnegin bir önceki örnekten farký 
+sýnýfa parametre almayý göstermektir.yani yapýcý fonkiyon argüman döndürecek.paremetre almak sadece yapýcý fonksiyonda olur .yýkýcý fonksiyonda olmaz.
+
+
+
+burada yapýcý fonsiyon degiþkeni ile  privete degiþkenine ulaþmaya calýþýyoruz.
+yani:
+
+int a;//private tamsayý degiþkeni atadýk.
+deneme(int x){//yapýcý fonksiyon ve parametre aldý(int x).
+a=x;//yapýcý fonksiyon degiþkeni
+}
+yani burada yapýcý fonsiyon degiþkeni ile  privete degiþkenine ulaþmaya calýþýyoruz.
+
+
+ void goster(){//fonksiyon tanýmlayýp ve cout ile gösterttiyoruz.
+                           cout<<a;  
+                             }
+deneme test (15)--->denem(int x)
+
+buradan x=15 olur dolayýsý ile a=15 olur.
+
+
+test .göster  ise
+
+goster()-->a degerini gösterir.
+
+
+
+---------------------
+örnek:: yapýcý _yýkýcý_fonk_3 
+ise bir önceki örnegin biraz geliþmiþi sadece tamsayý degerlerini artýrdýk .(örnegi karþýlaþtýrýn.)
+
+------------------------------
+
+örnek::yapýcý_yýkýcý_fonk_4
+
+ise degerleri kullanýcýnýn girmesi isteniyor(bir önceki örnekle karþýlaþtýrýnýz.)
+
+k,l,m yi x,y,z eþitledi.
+ve cout ta bunlarý yazdýrdýk .
+
+----
+yýkýcý fonksiyon ise yapýcý ile yaptýgýmýz yeri yýkýcý ile boþaltýyoruz.
+
+
+bu örnekte
+
+~denem(){
+
+
+}
+
+ile yazýlýr.(örnege bakýnýz.)
+
+-----------
+
+iþin espirisi:::::::::::::
+sýnýf içinde degiþken atanamaz.mesala
+
+a=5 sýnýf içide yazýlmaz 
+
+main kýsmýna gelip 
+
+test.a=5 þeklinde diyebiliyorduk.
+
+
+ama yapýcý fonksiyonlar bize bunu dememiz için izin verir.yani yapýcý fonksiyon içinde örnegin
+
+
+deneme{
+a=5
+}
+
+
+bu yüzden faydalýdýr.

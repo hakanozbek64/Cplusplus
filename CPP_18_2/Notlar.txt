@@ -1,0 +1,15 @@
+ders:
+18_2  
+
+örnek:fonksiyonlar_1
+
+iki sayýnýn hem toplamasýný hemde ortalamasýný alalým.
+
+
+örnek2: fonksiyonlar_
+bizden miktar(para) istesin . 20 10 ve 5 lik birimlere bölsün.
+
+bu örnekre 
+
+viod kullanýlacak yani return suz kullanýlacak
+

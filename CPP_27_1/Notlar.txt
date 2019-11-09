@@ -1,0 +1,165 @@
+27_1:
+
+arkadaþ(friend ) fonksiyonlar:
+
+privete degiþkenlere dýþarýdan eriþilemez .
+
+aþagýdaki program hata vericektir yukarýdaki sebepten;
+
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+class deneme{
+    int i;
+    public:
+           
+           void ata (int n){
+               i=n;
+               
+               }
+               int goster(){
+                   
+                   return i;
+                   } 
+                
+                
+                }obje;  
+      
+      
+
+
+
+int main(int argc, char *argv[])
+{
+    
+    cout<<oble.i;
+    
+    
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
+
+
+privete lere nereden eriþiyorduk.
+
+içerden bir fonksiyon yardýmýyla eriþebiliyorduk.
+
+dýþardan hiç bir þey eriþemez
+
+iþte arkadaþ fonksiyonlar burada iþe yarýyorlar.
+
+üyesi ait olmadýgýbir sýnýfa ait privete üyeleri eriþimi saglýyor.
+
+
+ister public ister privete herhangi bir yere koyabiliriz.(arkadaþ fonksiyonlarý.)
+
+
+mantýgý::
+
+class isim{
+
+
+özel degiþkenler(privete);
+
+
+public:
+
+asd ()  yani fonksiyon
+asd()yani fonksiyon
+
+
+friend int x();
+
+};
+
+//buraya kadar tanýmladýk bundan sonrada gösteriyoruz.//
+
+int x{
+
+özel degiþkenler 
+
+
+}
+
+//arkadaþ fonksiyonlar::
+yani dýþardan birinin eriþmesini saglýyor privete degiþkenlere.//
+
+
+
+arkadaþlýk basitce::a b nin arkadaþý ise;
+
+
+
+class a{
+
+
+  friend class b;
+
+
+
+
+ancak geçiþme özelligi yoktur.ve arkadaþlýk verilir ama alýnmaz.birini arkadaþ yapabilirsiniz ama baþka birinin sizin zorla arkadaþ olmsasýný saglayamassýnýz.
+birde aktarma yoktur yani:
+
+
+a- b arkadaþ 
+
+b-c arkadaþ 
+
+a-c arkadaþ diyemeyiz.!
+
+
+örnek::
+
+arkadaþ_1
+
+
+acýklama::
+deneme sýnýfýnýn içindeki  privete tamsayý degiþkenine frend fonksiyon sayesinde eriþmiþ olduk.
+----
+burada deneme(){
+
+}
+
+bir yapýcý fonksiyondur.buradan a=10 degeri verdik.
+---------
+
+
+
+cout kýsmýnda (deneme n) e test dedik  test.a ile de a yý göstermesini istedik.
+
+
+a=10 atamýþtýk .
+
+bu yüzden 10 degeri ekrana gelir.
+---------
+
+obje adý ile cout<<fonk(x) x degeri ayný olmasý gerekir.
+----------------------------------------
+----------------------------------------
+arkadaþ_2:
+
+iki sayý olsun objelerden bir yapýcý fonk içine yerleþtirelim.
+
+iki sayýnýn  birbirinin tam katý oldugunu yada tam katý olmadýgýný göstersin.bize 
+eger tam katý ise tam katý yassýn ;degilse tam katý degil yazssýn.
+
+acýklama:
+
+n /d nin tam katý ise return dönder yani 1;
+
+degilse 0 dönder.
+
+
+yani erkanda bize dogru olan ifadeleri döndürdü.
+
+
+8 dördün tam katýdýr.döndürdü
+
+7 3 ün tam katý degildiri döndürdü.
+
+
+***ders sonu.

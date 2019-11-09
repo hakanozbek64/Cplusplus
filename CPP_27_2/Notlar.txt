@@ -1,0 +1,33 @@
+27_2. dersler:
+arkadaþ fonksiyonlar :
+
+zor bir örnekle  devam ediyoruz.
+
+örnek_1:
+arkadas_fonksýyonlar_01
+
+
+bu örnekte arana ve kamyonun hýzlarý karþýlaþtýrýlýyor.ve hangisi büyükse onu belirtiyor.
+acýklama:
+
+iki sýnýf tanýmlýyacagýz .class deneme,class birþey  olsun digeride ve bunlarýn ceþitli degerlerini karþýlaþtýracagýz.
+
+burada araba yapýcý fonksiyondur.(sýnýfla ayný olmak zorundadrý.)
+hýzlarý 0dan büyük 0 eþit ve 0 dan küçük olmasýna baglý olarak hýzlarýn hangisinin büyük oldugunu bize döndürür.
+
+  return a.hiz-k.hiz;
+
+class araba da;
+araba()-> yapýcý fonksiyon.
+buarada yapýcý fonksiyonla hem yolculara hemde hýza deger atadým 
+
+benzer þekilde kamyonda hemen hemen ayný .
+
+araba ve kamyon sýnýfýnýn friendleri ayný fonksiyonlarý içerir.
+
+friend int ark(araba a,kamyon k);
+
+
+***ders sonu.
+
+

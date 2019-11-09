@@ -1,0 +1,98 @@
+15.ders:
+
+
+diziler konusu:
+
+belirli sayýda verinin bellekte sakalandýgý degiþken listesidir.
+
+þekilde bunu görebiliriz.
+
+1.paint ile yapýlmýþ örnekte
+
+uzun bir konudur . bölüm bölüm anlatýlacaktýr.
+
+önce 1 boyutlu dizilerden bahsedelim.
+
+
+bir grub saysýsal veriyi yada karkteri içeren diziler 1 boyutludur.
+
+þu seklnde tanýmlanýr.
+
+
+int deneme [15];
+
+
+ne demek bu?
+
+
+int =  degiþken türü
+
+deneme = dizinin adý
+
+[15]=dizinin boyutu
+
+
+diziler indeksleri yardýmýyla kullanýlýr.
+
+
+indeks nedir?
+
+indeks dizinin her bir elemnýna sýrayla verilen bir numaradýr.
+
+
+indeksler 0 dan baþlayarak oluþturulmaktadýr.
+
+buna göre dizinin 1 elemanýný indeksi 0 dýr.
+
+bunu 2. point þemasýnda belirttik.
+
+
+dizlere baþlangýc degeri nasýl atanýr.??
+
+örnegin 
+
+a[0]=2
+
+a[5]={3,7,8,3,6}
+
+1 deger3 
+2.deger7
+3.deger8 gibi
+
+......
+olabilir
+
+bunula ilgili ufak bir örnek cözelim.
+
+1. örnek 
+
+...........
+
+
+system("PAUSE");
+    return EXIT_SUCCESS;
+
+ile yapýldý.
+
+
+2. örnek ise
+
+ayný örnegi getch ile yaptýk.
+
+#include <conio.h> //getch() için kütüphanesi eklendi.
+...........
+ getch();
+ return 0;
+}
+---
+f9 a basarak direk calýþtýrabililiriz.
+---
+
+peki bu endeksler while ,for vs döngülerde kullanýlabilyor mu?
+
+
+
+
+
+
+

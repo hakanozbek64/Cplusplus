@@ -1,0 +1,73 @@
+21.ders:
+
+class::
+
+
+nesneye yönelik programlama giriþ
+
+nesneler(c++ kalbi)
+
+nesneye yönelik programlama adýndan da anlaþýlabiliyor nesnelerden oluþur 
+
+nesneye yönelik progrmalamanýn 3 aþamasý vardýr.
+
+1.önce nesnelerimizi belirliyoruz.
+
+
+2.ardýndan nesnelerimizi program içinde kodluyoruz.
+
+
+
+
+3.son olarak  ana program içinde bu nesneleri kullanmaya calýþýyoruz.
+
+
+
+*classlar nesne(c++ kalbi) oluþturmamýzý saglýyor.
+
+*class lar yapýsal programlamada struct vardý bunlara cok benzerler.
+
+
+
+class larýn tanýmlanmasý:::
+
+class sinifadi{
+
+private:(bir sýnýfýn veri veya fonksiyonlarýndan oluþan üyelerine eriþimi kýsýtlayabiliriz.
+
+bu class dýþýnda hiç kimse main içinde private olarak belirledigimiz þeylere eriþemesin istiyoruz.ozman private tanýmlarýz.böylece bu
+istedigimiz verilerin istenilmeyen degerler almasýný önlemiþ oluruz.bu durumda bu ögeler özel olur.privet olur.)
+
+public:(genel; herkese acýk olan birþey )
+
+
+}
+
+*************
+
+tekrar tanýmlamaya gecelim:yukarýdaki class tanýmlamasýna eklemeler yapýyoruz.
+
+
+class sinifadi{
+
+private:
+         fonksiyon ve degiþkenler
+
+public:
+
+         fonksiyon ve degiþkenler
+
+}nesnelistesi;
+
+
+þeklindedir 
+
+
+----------
+class yapýsýna
+
+
+örnek :
+a,b  nesneleri oluþturuldu.
+
+acýklama:x=5 tanýmlandý.

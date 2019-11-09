@@ -1,0 +1,144 @@
+18.1.ders:
+
+karmaþýk programlardaki c++ daki kaþýkýlgý azalmak için kullanýlýr.tekrar sürekli ayný kodlarýn yazýlmasýný engeller.bu tanýmlanan calýþabilen fonksiyonlarýn calýþabilmesi için bir baþka fonksiyon tarafýndan cagýlmasý gerekiyor.
+
+fonksiyonlarýn tanýmlanmasýnýn nasýl yapýlacagýný söyleyelim.
+þunu da belirtelim main de bir fonksiyondur.
+
+*main fonksyonun baþýna hiç birþey yazmassak derleyici bunu int oalarak algýlýyor.
+
+mesela main()
+
+ile int main () ayný þeydir.
+
+*main() ana fonksiyondur.bütün programlarýmýzda mutlaka bulunmasý gerekir.
+
+fonksiyonlarýmýzýn tanýmlamasý ::
+
+
+
+tür isim(paremetre listesi){
+
+ deyimler 
+
+asd (deyimler komutlarý)
+asd (deyimler komutlarý)
+
+asd (deyimler komutlarý)
+
+
+
+   }
+
+
+yani örnegin ::
+
+
+int deneme (intx,int y)
+-------------------
+sayý fonksiyonu
+
+temsayý deger döndürecek ise
+
+sayý()
+
+int sayý()
+-------------------------
+x prametresine sayipse
+
+
+int sayi(intx)
+------------
+
+eger deger döndürmiyecekse
+
+void kullanýyoruz.
+
+void sayi(int x) gibi
+-----------------------
+
+
+
+fonksiyonun tanýnabilmesi için main fonksiyonundan önce yazýlmasý gerekir.
+
+-----------------------------------
+
+2. örnek 
+fonksiyonlar_2
+
+örnek yaparsak.
+
+harika bir örnek fonksiyonlarla ilgili
+
+acýklarsak nasýl calýþtýgýný ana hatlarýyla 
+
+önce program main fonksiyonuna gelir burada fonksiyonun oldugu yere geldiginde burada toplam() dýr. direkt toplamaýný oldugu yere gider ve return ile de toplamýný döndürür.
+
+bu örnegin;
+
+ayný þekilde bunun cýkarmasýný toplamasýný bölmesini de yapabiliriz.
+
+sadece return kýsmýný degiþtirerek.
+
+
+
+-------------
+
+fonksiyon_3:(üst alma programý)
+
+fonksiyonlar arasýnda parametre geçirme diye bir durum var bundan bahsedecegiz.örnekte vericez.
+
+fonksiyon_3 örnegine bakýnýz.
+
+acýklamasý :
+
+fonksiyonlarý üste  degiþken gibi tanýmlamayý ögrendik.
+
+neden üstte noktalý virgül kullandýk fonksiyonlarda oldugu gibi bloklarla(parantez acýp kapama) oluþturmadýk.
+þunun için.....
+
+
+
+bu programý cok büüyük birþey düþünürsek.
+
+
+burada degiþken gibi fonksiyonu tanýmlýyoruz.
+
+
+int usalma(int sayi1,int sayi2);
+
+
+yani ayný þöyle gibi
+
+
+
+
+int usalma(int sayi1,int sayi2);
+
+main(){
+       
+      int x;          tanýmlýyoruz.
+................
+gibi
+
+
+ve programýn içinde  kullanmaya baþlýyoruz.
+
+süslü prantezimi yazýp içini dolduruyoruz.
+
+
+üst alma fonksiyonu
+
+int usalma(int x,int y){
+       
+       int z,toplam=1;
+       
+       for(z=1;z<=y;z++)
+              toplam=toplam*x;
+       
+              return toplam;
+       }
+
+
+
+

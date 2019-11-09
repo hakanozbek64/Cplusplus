@@ -1,0 +1,145 @@
+28. ders nesne dizileri:
+
+
+nesne dizileri aynen degiþken dizileri gibi kullanýlýyor.nesne dizisinin bildirimi yapýlýyor.bu bildirime baglý olarak program içinde kullanýlýyor.nesne dizilerinin dizilerden hiç bir farký yok.
+
+örnek inceleyiniz::
+
+
+nesne dizisi_1:
+acýklama :program cýktýsý:
+0
+1
+2
+3
+4
+
+
+0 dan 4 e kadar olan sayýlarý alt alta yazýyor.
+
+
+
+sýnýf kýsmýný zaten biliysunuz.
+
+
+yani bir tane privete degiþken tanýmlýyoruz..
+
+buna ulaþmak için bir tane ata fonksiyonu yapýyoruz.ve ona eriþiyoruz.
+
+x=n ile
+
+
+daha sonra bir fonksiyonla bunu gösteriyoruz.
+
+
+main kýsmýna gelirsek bir tane tam sayý degiþkeni kullanýdýk. 
+
+int i
+
+for döngüsünde kullanabilemek için.
+
+
+nesdiz abc[5]  ise abc nesne listesinin adý diyebiliriz .burada belirtilmemiþ sadece biz belirttik.
+
+aynen deneme abc ;gibi
+
+
+abc sýnýfý oldugunu söyledik yani
+
+abc[i] ise i=0,1,2,3,4 gibi artýrdýk.
+
+örnegin abc[0].ata(0)
+
+ata fonksiyonumuza gelir.
+
+
+void ata (int 0)
+
+x=0;
+
+olur.
+
+yani abc[i].ata(o);
+
+ata(o)-> 0 degerini alýr.yani ozaman
+
+
+abc[o]  0 degerini göstermek zorundadýr.
+
+
+bu þekilde 
+
+
+abc[1] = 1
+
+abc[2] = 2 
+abc[3] = 3 
+abc[4] = 4  gibi olur  
+
+ekrana yazdýrma kýsmýnda ise gene for döngüsü kullanýlýr.
+
+
+o dan 5 kadar artýrýyoruz.
+
+ve bu kýsmda ata degilde göster kýsmýný yazýyoruz.
+
+erkanda göstermek için  dogal olarak.
+
+
+---
+
+
+normal dizilere 
+
+int a[5]={1,4,5,6,7}  gibi 
+
+
+nesne dizileri içinde ayný þey gecerlidir.
+
+
+
+nesne dizlerine baþlangýc degeri atamanýn yolu  kurucu fonksiyonlarý kullanmak 
+
+ki bunlarý biliyoruz.
+
+
+bunu gene bir örnekte incelersek;
+
+
+nesne atama_2;
+
+
+acýklama public ten sonra yapýlan 
+nesdiz kýsmý() 
+ yapýcý fonksiyondur.
+
+
+burada bilinmesi gereken kýsým 
+
+bir önceki örnekten farký nedir  ?
+
+
+nesne dizilerine baþlangýc degeri atayacagýmýz zaman  normal atama fonksiyonu degilde yapýcý fonksiyonu kullanýyoruz.cunku yapýcý fonksiyonlar sayesinde nesnelere deger atayabiliyoruz.
+kilit çümle atama yaparken dizlere yapýcý fonksiyon kullanýyoruz.
+
+atama yapadýgýmýz zaman normal atama fonksiyonumuzu kullanýyoruz.
+
+
+evet bunlar tek boyutlu dizlerdir .
+
+tabi dizlerden hatýrlarsak ok boyutlu dizlerde vardý.
+iþte nesne dizlerindede cok boyutlu nesne dizleri var.
+
+birden fazla boyuta sahip  dizlerin  tanýmlanabilcegini zaten bilyoruz.
+benzer þekilde cok boyutlu dizleride hazýrlayabilyoruz.bununla ilgili bir örnek yapalým 
+
+
+nesne _dizleri_3
+
+
+acýklama :cok boyutlu nesne dizleri yapýyoruz.
+
+nesne dizlerine baþlangýc degerini yazarken yapýcý fonksiyon kullanmalýyýz. daha öncede belirtmiþtik,söylemiþtik.
+
+
+***ders sonu

@@ -1,0 +1,50 @@
+ders 37_2:
+
+kalýtým (inherit) ile ilgili ögretici acýklayýcý bir kaç örnek çözücez. 
+------------------------
+özellik 1:
+
+1. örnek:
+
+kalýtým_1:
+
+acýklama:
+türetilmiþ sýnýfýn objesi temel sýnýfýn public elemanýna eriþti.
+(eriþim türü public ise temel sýnýfýn publicindeki üyelerede türetilmiþ sýnýf kendi publici gibi eriþebilir.)
+
+
+kalýtým_2:
+
+aslýnda yukarýdaki acýklamayla ayný:
+
+acýklama:
+türetilmiþ sýnýfýn objesi temel sýnýfýn public elemanýna eriþti.
+(eriþim türü public ise temel sýnýfýn publicindeki üyelerede türetilmiþ sýnýf kendi publici gibi eriþebilir.)
+---------------------
+
+özellik_2:
+
+
+kalýtým_3 
+
+acýklama:
+hata vericek 
+
+ne hatasý?
+
+burada denene2 türetilmiþ sýnýfýna publici kullanarak deneme temel sýnýfýna eriþtin ama eriþtigin yerdeki int x degiþkeni temel deneme sýnýfýnýn private üyesi  oldugu için olmuyor yani eriþim türünü public ilede yapsan private ilede yapsan temel sýnýftaki private sýnýfýna eriþemessin diyor.o yüzden hata veriyor.
+
+
+kalýtým_4 
+
+
+acýklama: hata vericektir. niçin?
+
+
+temel sýnýfýn void ata ve int goster fonksiyonlarý artýk deneme 3 için private hale geldi.
+deneme temel sýnýfýna eriþiyorsun ama kilitli olarak eriþiyorsun yani iznin yok .
+
+burada a ya da eriþemeyiz public te olsa private de olsa !!!
+
+
+***ders sonu:

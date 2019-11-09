@@ -1,0 +1,89 @@
+16.ders:
+
+
+katar dizileri
+
+bu ders katar dizilerini iþleyecegiz.
+
+önce katar dizlerine baþlangýc degerinin nasý atandýgýný görelim.
+
+1. örnek 
+
+katar dizlerine baþlangýc degerinin atanmasý ile ilgilidir.
+
+char a[]=('a','l','i')
+yerine
+
+chara[]="ali"
+
+yazýyoruz.
+birden fazla olursa örnekteki gibi olur.
+
+
+char a[][80]={"pazar","pazartesi","salý"};
+
+----------------------------------------
+2. örnek 
+
+katar okumak:
+acýklama:
+
+int x;
+
+cout<<"bir sayi giriniz";
+cin>>x;
+
+olsun 
+burada 
+
+gets 
+cin ile ayný iþlevi görüyor diyebiliriz.
+
+
+bir katarý klavden okumak istiyorsak gets fonksiyonunu kullanýrýz.
+
+þölede acýklayabilriz.
+klavyeden giriyoruz
+
+4,5,6,8
+
+dizi->  4 5 6 8 null
+indeks->0 1 2 3 4
+dizinin her bir karekteri dizinin farkýlý bir hücresine yerleþmiþ oluyor.
+
+yani gets fonksiyonu klavyeden girdigimiz katarlarý herhangi bir ek tanýmlamaya gerek duymadan bir dizi içine yerleþtiriyor.
+
+
+-----------------------------------------
+
+3. örnek 
+
+katar kopyalama
+
+
+bir katara kopyalamanýn yapýlabilmesi için
+
+strcpy yapýlmalýdýr 
+
+ne demen yani?
+
+strcpy() str copy fonksiyonu
+str de stringten geliyor.
+
+yazýmý::
+
+
+
+strcpy(katar,karekter ifade)
+dir.
+
+katar-> katar adý ==karekter
+
+
+karekter ->katarýn içine yerleþtirecegimiz ifadeyi temsil ediyor.
+
+
+"abcdefg"-> scrcpy -> a b c d e f null =a[i]
+
+
+

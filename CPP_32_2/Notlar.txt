@@ -1,0 +1,136 @@
+ders:32_2:
+
+
+yapýcý fonksiyonlarýn aþýrý yüklenmesi:
+
+konusuna devam ediyoruz..
+
+biri hazýrlanmýþ biri hazýranmamýþ iki tane diziyi belirtelim..
+---------------------------
+
+örnek:
+
+yapýcý_fonk_asýrý_yuklenmesý_4:
+
+özellikle burada main kýsmý önemli ;
+
+diger yerler bilindigi gibi..
+..................
+
+burada for döngüsüne giriyor.
+
+i=0 dan i=3 olana kadar artýr deniyor.
+
+cout ta ob1. i göster diyor.ve 
+
+ob1[0]=0 dýr cýnku bir deger atnamamýþtýr.
+
+ob2[0]  degeri yani ilk deger 3 tür.
+
+i yi bir artýrýr.
+
+ob1[1] gene sýfýr cunku deger atanmamýstýr.
+
+
+
+i bir artar ob2[1]  degeri 5 oldugu için deger atanýyor.
+
+devam ediyoruz ob1[2] degeri olmadýgý için o degerini alýr.
+
+
+ob2[2] de ise gene ob[2]  deki son deger 7 degerini alýr.
+
+
+
+eger burada
+
+
+deneme(){
+                       
+                      x=0; // hazýrlayýcý yok
+                       }
+
+
+x yerine x=10 (bir sayý girseydik ) degerimizi sýfýr degilde 10 döndürür...
+-----------------------
+
+yapýcý fonksiyona varsayýlan arguman gecirme::
+
+
+
+ fonksiyon cagrýldýgý zaman karsýlýk gelen arguman belirtilmemiþse eger paremetre olarak varsayýlan bir deger verebilmemizi saglýyor...
+
+
+önceki örnekten farklý olarak varsayýlan arguman kullanmanýn fonksiyon asýrý yüklenmesinin kýsaltýlmýs oldugunu görücegiz..
+
+
+ varsayýlan argumana parametre verebilmek için  paremetrenin yanýna eþittir deyip degeri yazýyoruz...
+
+
+mesela (){
+
+ void fonk(int a=0,int b=5)
+
+}
+
+gibi
+
+
+
+burada yapýlan yapýcý fonksiyona arguman gecirdik..
+
+yani degeri biz kendimiz girdik.
+
+
+örnekle yaparak acýklayalým::
+
+yapýcý fonksiyona varsayýlan arguman gecirme:
+
+
+örneginde 
+
+sonuc ob1=5 
+
+      ob2=20 degerini aldý ozaman ;
+
+önce ob1 yazdýrýlsýn istedik burada ob1 de parametre olamadýgý için
+  bizimvarsaydýgýmýz  n=5 vardayýlan degeri yani ob1 bos oldu için bizim varsaydýgýmýz degeri ob1 e geciriyor...  yani ob1 =5 degerini veriyor..
+
+
+
+arguman ob2(20) de ise bu argumana paremetre aktarmýþýz ve 20 degerini vermiþiz. ve 20 de gene bu  yukardaki yapýcý fonksiyona geliyor..ama diyorki buraya gelindiginde senin varsaymana ihtiyacýmýz yok diyor (cunku burada 20 degerini atamýsýz .bizim 5 ile hiç bir ilgimiz yok..)yani direk 20 degerini yazýyor..
+
+--------------------------
+
+
+yeni örnek bir sýnýfta degil de bir fonksiyon içinde tanýmlayarak yapalým.
+
+
+örnek:
+
+ yapýcý_fonk_arguman_gecýrme_2
+
+
+
+
+acýklama :
+
+
+öncelikle main kýsmýndan ve ilk fonksiyonumuzdan baþlayalým.
+
+fonk(); paremetre almadýgý için =0 ve b de=0 degrini aýlýyor(varsayýlýyor.)
+
+yani biz fonk içinde eger deger yazmassak yukardaki varsayýlan degerler yazýlýr.  
+
+
+fonk(30) gelirsek  
+
+fonk (int a=30,int b=0 )alýr.b yazmadý çünki bir paremetre almýþ.digeri varsayýlan aldý.
+
+
+fonk (30,45)
+ degerinde ise ;
+ hem a ya hemde b ye deger atadýgýmýz için a ve b nin varsayýmlarýna ihityacýmýz yok diyoruz ve bize 30 ve 40 degerini yazdýr diyoruz.
+
+***ders sonu:
+
